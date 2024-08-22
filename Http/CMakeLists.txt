@@ -1,0 +1,2 @@
+add_executable(httpServer httpServer.c)
+target_link_libraries(httpServer netutils)

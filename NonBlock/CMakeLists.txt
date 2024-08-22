@@ -1,0 +1,2 @@
+add_executable(select_noblock select_noblock.c)
+target_link_libraries(select_noblock netutils)
